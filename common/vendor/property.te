@@ -1,0 +1,7 @@
+compatible_property_only(`
+    system_restricted_prop(fpsboost_prop)
+')
+
+not_compatible_property(`
+    system_public_prop(fpsboost_prop)
+')
